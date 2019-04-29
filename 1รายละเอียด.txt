@@ -1,0 +1,15 @@
+﻿PHP ver 5
+xampp ver 5.6.32-0-VC11
+ให้ Import ฐานข้อมูลก่อน ในโฟลเดอร์ database
+******************************************
+หลังบ้าน
+
+http://localhost/ddcamera/admin_index.php
+
+user=admin
+pass=admin หรือดูในฐานข้อมูลตาราง tbl_admin
+-------------------------------------------------------------------
+หน้าบ้าน
+http://localhost/ddcamera/
+index.php
+*******************************************
