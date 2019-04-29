@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:p_id;datatype:int,name:p_name;datatype:string,name:p_list;datatype:string,name:p_price;datatype:int,name:p_date;datatype:timestamp" />
+	<infoitem key="UD_showproduct" value="name:p_id;datatype:int,name:MetaKeyword;datatype:string,name:MetaDescription;datatype:string,name:p_name;datatype:string,name:CatId;datatype:int,name:productcode;datatype:string,name:productname;datatype:string,name:Promotion;datatype:string,name:New;datatype:string,name:Quanlity;datatype:int,name:PriceNormal;datatype:int,name:p_price;datatype:real,name:PriceSend;datatype:int,name:p_img;datatype:string,name:p_detail;datatype:blob,name:date_save;datatype:timestamp,name:Popular;datatype:int" />
+</info>

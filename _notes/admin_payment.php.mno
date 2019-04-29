@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_showpay" value="name:pay_id;datatype:int,name:pay_email;datatype:string,name:pay_number;datatype:string,name:pay_img;datatype:string,name:pay_date;datatype:timestamp" />
+</info>
