@@ -63,19 +63,19 @@ if (!function_exists("GetSQLValueString")) {
 
 }
 
-mysql_select_db($database_dbcon, $dbcon);
+mysql_select_db($database_conn, $conn);
 $query_show = "SELECT * FROM tbl_category";
 $show = mysql_query($query_show, $dbcon) or die(mysql_error());
 $row_show = mysql_fetch_assoc($show);
 $totalRows_show = mysql_num_rows($show);
 
-mysql_select_db($database_dbcon, $dbcon);
+mysql_select_db($database_conn, $conn);
 $query_product = "SELECT * FROM tbl_product";
-$product = mysql_query($query_product, $dbcon) or die(mysql_error());
+$product = mysql_query($query_product, $conn) or die(mysql_error());
 $row_product = mysql_fetch_assoc($product);
 $totalRows_product = mysql_num_rows($product);
 $query_show = "SELECT * FROM tbl_category";
-$show = mysql_query($query_show, $dbcon) or die(mysql_error());
+$show = mysql_query($query_show, $conn) or die(mysql_error());
 $row_show = mysql_fetch_assoc($show);
 $totalRows_show = mysql_num_rows($show);
 ?>
